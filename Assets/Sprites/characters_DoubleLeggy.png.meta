@@ -1,0 +1,1294 @@
+fileFormatVersion: 2
+guid: b0f0d0c0af4fb8a48bef65fd37a20288
+timeCreated: 1454368763
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: characters_DoubleLeggy_0
+    21300002: characters_DoubleLeggy_1
+    21300004: characters_DoubleLeggy_2
+    21300006: characters_DoubleLeggy_3
+    21300008: characters_DoubleLeggy_4
+    21300010: characters_DoubleLeggy_5
+    21300012: characters_DoubleLeggy_6
+    21300014: characters_DoubleLeggy_7
+    21300016: characters_DoubleLeggy_8
+    21300018: characters_DoubleLeggy_9
+    21300020: characters_DoubleLeggy_10
+    21300022: characters_DoubleLeggy_11
+    21300024: characters_DoubleLeggy_12
+    21300026: characters_DoubleLeggy_13
+    21300028: characters_DoubleLeggy_14
+    21300030: characters_DoubleLeggy_15
+    21300032: characters_DoubleLeggy_16
+    21300034: characters_DoubleLeggy_17
+    21300036: characters_DoubleLeggy_18
+    21300038: characters_DoubleLeggy_19
+    21300040: characters_DoubleLeggy_20
+    21300042: characters_DoubleLeggy_21
+    21300044: characters_DoubleLeggy_22
+    21300046: characters_DoubleLeggy_23
+    21300048: characters_DoubleLeggy_24
+    21300050: characters_DoubleLeggy_25
+    21300052: characters_DoubleLeggy_26
+    21300054: characters_DoubleLeggy_27
+    21300056: characters_DoubleLeggy_28
+    21300058: characters_DoubleLeggy_29
+    21300060: characters_DoubleLeggy_30
+    21300062: characters_DoubleLeggy_31
+    21300064: characters_DoubleLeggy_32
+    21300066: characters_DoubleLeggy_33
+    21300068: characters_DoubleLeggy_34
+    21300070: characters_DoubleLeggy_35
+    21300072: characters_DoubleLeggy_36
+    21300074: characters_DoubleLeggy_37
+    21300076: characters_DoubleLeggy_38
+    21300078: characters_DoubleLeggy_39
+    21300080: characters_DoubleLeggy_40
+    21300082: characters_DoubleLeggy_41
+    21300084: characters_DoubleLeggy_42
+    21300086: characters_DoubleLeggy_43
+    21300088: characters_DoubleLeggy_44
+    21300090: characters_DoubleLeggy_45
+    21300092: characters_DoubleLeggy_46
+    21300094: characters_DoubleLeggy_47
+    21300096: characters_DoubleLeggy_48
+    21300098: characters_DoubleLeggy_49
+    21300100: characters_DoubleLeggy_50
+    21300102: characters_DoubleLeggy_51
+    21300104: characters_DoubleLeggy_52
+    21300106: characters_DoubleLeggy_53
+    21300108: characters_DoubleLeggy_54
+    21300110: characters_DoubleLeggy_55
+    21300112: characters_DoubleLeggy_56
+    21300114: characters_DoubleLeggy_57
+    21300116: characters_DoubleLeggy_58
+    21300118: characters_DoubleLeggy_59
+    21300120: characters_DoubleLeggy_60
+    21300122: characters_DoubleLeggy_61
+    21300124: characters_DoubleLeggy_62
+    21300126: characters_DoubleLeggy_63
+    21300128: characters_DoubleLeggy_64
+    21300130: characters_DoubleLeggy_65
+    21300132: characters_DoubleLeggy_66
+    21300134: characters_DoubleLeggy_67
+    21300136: characters_DoubleLeggy_68
+    21300138: characters_DoubleLeggy_69
+    21300140: characters_DoubleLeggy_70
+    21300142: characters_DoubleLeggy_71
+    21300144: characters_DoubleLeggy_72
+    21300146: characters_DoubleLeggy_73
+    21300148: characters_DoubleLeggy_74
+    21300150: characters_DoubleLeggy_75
+    21300152: characters_DoubleLeggy_76
+    21300154: characters_DoubleLeggy_77
+    21300156: characters_DoubleLeggy_78
+    21300158: characters_DoubleLeggy_79
+    21300160: characters_DoubleLeggy_80
+    21300162: characters_DoubleLeggy_81
+    21300164: characters_DoubleLeggy_82
+    21300166: characters_DoubleLeggy_83
+    21300168: characters_DoubleLeggy_84
+    21300170: characters_DoubleLeggy_85
+    21300172: characters_DoubleLeggy_86
+    21300174: characters_DoubleLeggy_87
+    21300176: characters_DoubleLeggy_88
+    21300178: characters_DoubleLeggy_89
+    21300180: characters_DoubleLeggy_90
+    21300182: characters_DoubleLeggy_91
+    21300184: characters_DoubleLeggy_92
+    21300186: characters_DoubleLeggy_93
+    21300188: characters_DoubleLeggy_94
+    21300190: characters_DoubleLeggy_95
+    21300192: characters_DoubleLeggy_96
+    21300194: characters_DoubleLeggy_97
+    21300196: characters_DoubleLeggy_98
+    21300198: characters_DoubleLeggy_99
+    21300200: characters_DoubleLeggy_100
+    21300202: characters_DoubleLeggy_101
+    21300204: characters_DoubleLeggy_102
+    21300206: characters_DoubleLeggy_103
+    21300208: characters_DoubleLeggy_104
+    21300210: characters_DoubleLeggy_105
+    21300212: characters_DoubleLeggy_106
+    21300214: characters_DoubleLeggy_107
+    21300216: characters_DoubleLeggy_108
+    21300218: characters_DoubleLeggy_109
+    21300220: characters_DoubleLeggy_110
+    21300222: characters_DoubleLeggy_111
+    21300224: characters_DoubleLeggy_112
+    21300226: characters_DoubleLeggy_113
+    21300228: characters_DoubleLeggy_114
+    21300230: characters_DoubleLeggy_115
+    21300232: characters_DoubleLeggy_116
+    21300234: characters_DoubleLeggy_117
+    21300236: characters_DoubleLeggy_118
+    21300238: characters_DoubleLeggy_119
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: characters_DoubleLeggy_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 336
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 32
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 192}
+        - {x: -16, y: -47}
+        - {x: -12, y: -47}
+        - {x: -9, y: -46}
+        - {x: -10, y: -47}
+        - {x: -16, y: -51}
+        - {x: -16, y: -192}
+        - {x: 16, y: -192}
+        - {x: 16, y: 191}
+        - {x: 14, y: 192}
+      - - {x: -16, y: -87}
+        - {x: -13, y: -86}
+        - {x: -13, y: -79}
+        - {x: -15, y: -77}
+        - {x: -16, y: -77}
+    - name: characters_DoubleLeggy_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 336
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 336
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 336
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 336
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 336
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 336
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 336
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 336
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 336
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 336
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_12
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 336
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 240
+        width: 28
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 336
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 288
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 288
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 288
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 288
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 288
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 288
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_23
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 288
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 288
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 288
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 288
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 288
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 240
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 240
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 240
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 240
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 240
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 240
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 240
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 240
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 240
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_37
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 240
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_38
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 240
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_39
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 240
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 31
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_45
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 192
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 192
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 32
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 119}
+        - {x: -16, y: 115}
+        - {x: -16, y: -115}
+        - {x: -12, y: -119}
+        - {x: 12, y: -119}
+        - {x: 16, y: -114}
+        - {x: 16, y: 111}
+        - {x: 10, y: 119}
+      - - {x: -16, y: -14}
+        - {x: -13, y: -13}
+        - {x: -13, y: -6}
+        - {x: -15, y: -4}
+        - {x: -16, y: -4}
+    - name: characters_DoubleLeggy_48
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 192
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_49
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_50
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_51
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 192
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 192
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_53
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 0
+        width: 31
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_54
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 192
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_57
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 144
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_58
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 144
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_61
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 144
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_62
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 144
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_63
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 144
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_64
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 144
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_65
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 144
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_67
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 96
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_69
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 96
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_70
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_71
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 96
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_72
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 96
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 96
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_74
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 96
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_75
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 96
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_76
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 96
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_78
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 48
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_79
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 48
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_80
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 48
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_82
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 48
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_83
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 48
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_84
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 48
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_85
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 48
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_89
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_90
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_91
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_92
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_93
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_94
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_95
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_96
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_97
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: characters_DoubleLeggy_98
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

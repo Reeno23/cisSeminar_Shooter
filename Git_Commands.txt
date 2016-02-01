@@ -1,0 +1,12 @@
+init
+remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master property when pushing
+
+
+status
+reset
+clone
+
+To push changes to github:
+add (-A for all, -u for modified and deleted w/o new, . for new and modified, w/o deleted)
+commit -m "Changes here"
+push (origin master)       
