@@ -1,7 +1,7 @@
 init
-remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master property when pushing
+remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master remote property. 
 
-
+git remote -v (show the remotes you have stored to be used)
 status
 reset
 clone
@@ -10,3 +10,7 @@ To push changes to github:
 add (-A for all, -u for modified and deleted w/o new, . for new and modified, w/o deleted)
 commit -m "Changes here"
 push (origin master)       
+
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+We're going to all have our own repository on github
