@@ -10,10 +10,11 @@ clone (if you clone, it sets that respository as origin, so fetch and pull will 
 diff (origin/master or --cached or HEAD) (show all changes that took place since last commit)
 branch "name" (create branch)
 checkout "name" (switch to branch)
+
 To push changes to github:
 add (-A for all, -u for modified and deleted w/o new, . for new and modified, w/o deleted)
 commit -m "Changes here"
-push (origin master)       
+push (origin master) (--all -u to push all branches and set upstream tracking)       
 
 if changes have been made to both local and remote, and you just want to grab the remote branch data
 git fetch --all
