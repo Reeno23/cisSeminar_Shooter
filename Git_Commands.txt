@@ -2,18 +2,30 @@ init
 remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master remote property. 
 
 git remote -v (show the remotes you have stored to be used)
+git fetch (origin) (Pull everything you don't have from that repository, branches and all, w/o merging)
+pull (origin) (Pull everything & merge it into your work)
 status
 reset
-clone
+clone (if you clone, it sets that respository as origin, so fetch and pull will default use it.)
+diff (origin/master or --cached or HEAD) (show all changes that took place since last commit)
 
 To push changes to github:
 add (-A for all, -u for modified and deleted w/o new, . for new and modified, w/o deleted)
 commit -m "Changes here"
 push (origin master)       
 
+if changes have been made to both local and remote, and you just want to grab the remote branch data
+git fetch --all
+git reset --hard origin/master
+
+if you KNOW your local contains the correct data and you did your work without pulling (be careful... this should mean you checked
+the changes with diff and incorporated them locally, but didn't actually pull them.. be careful)
+git push origin master -f
+
+
 https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+http://rogerdudler.github.io/git-guide/
+https://education.github.com/git-cheat-sheet-education.pdf
 
-We're going to all have our own repository on github]
+We're all going to have a working branch, and a master branch.
 
-
-EXAMPLE CHANGE 9:42PM
