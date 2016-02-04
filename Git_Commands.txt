@@ -1,6 +1,6 @@
 git branch ( make sure you're always in the proper branch ) *******
 git checkout (switch branch)
-git config --global credential.helper cache (so git stores user and pw in memory for 15min)
+git config --global credential.helper wincred (to make your user and pw store for 15 mins after use)
 
 init
 remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master remote property. 
