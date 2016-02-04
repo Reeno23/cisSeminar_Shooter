@@ -48,7 +48,7 @@ commit -m "message"
 push
 -- now your remote is up to date as well
 -- now, we need to get all of these changes to the master branch, regardless of if one of us has pushed to it in the meantime. so,
-
+diff master (to see differences)
 
 hi
 
