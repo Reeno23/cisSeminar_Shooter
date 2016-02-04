@@ -40,7 +40,7 @@ Workflow
 * We can't really work on the scene itself at the same time, as there's no good way to merge binary files.
 * We can add assets, work on scripts, etc though of course. Anything text or resource-related we can get merged.
 checkout (your branch)
-pull origin/master
+pull origin/master (or fetch then merge)
 *now you can work. once done with work ->
 add -A (or single files)
 commit -m "message"
@@ -49,6 +49,10 @@ push
 -- now your remote is up to date as well
 -- now, we need to get all of these changes to the master branch, regardless of if one of us has pushed to it in the meantime. so,
 diff master (to see differences)
+git fetch origin master
+git merge master
 
-hi
+
+
+
 
