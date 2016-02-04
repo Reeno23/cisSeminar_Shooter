@@ -1,6 +1,37 @@
+refs: 
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+http://rogerdudler.github.io/git-guide/
+https://education.github.com/git-cheat-sheet-education.pdf
+https://www.atlassian.com/git/tutorials/comparing-workflows/ (the workflow 
+http://stackoverflow.com/questions/19216411/how-do-i-pull-files-from-remote-without-overwriting-local-files (stash > pull > stash pop)
+
+Workflow
+* Remember that the branch you're in dictates what files you see and are working on in file explorer.
+* git status, git diff, git reset are all very useful.
+* Remember that reset and merge --abort are always available. Also, NEVER push to master ala the end of this workflow unless you're confident
+all conflicts are properly saved. If you need to restart, just pull master again, do fetch & merge again, and start over.
+* We can't really work on the scene itself at the same time, as there's no good way to merge binary files.
+* We can add assets, work on scripts, etc though of course. Anything text or resource-related we can get merged.
+checkout (your branch)
+pull origin/master (or fetch then merge)
+*now you can work. once done with work ->
+add -A (or single files)
+commit -m "message"
+-- now your personal branch is up to date locally
+push
+-- now your remote is up to date as well
+-- now, we need to get all of these changes to the master branch, regardless of if one of us has pushed to it in the meantime. so,
+checkout master
+git fetch (your branch)
+git merge (your branch) (remember you're in master now, so files you see in file explorer are master's files. fix merge conflicts.)
+git push (when you're sure it's fine!)
+everything 
+
+
+A bunch of random commands and notes below:
+
 git branch ( make sure you're always in the proper branch ) *******
 git checkout (switch branch)
-git config --global credential.helper wincred (to make your user and pw store for 15 mins after use)
 
 init
 remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master remote property. 
@@ -27,30 +58,10 @@ the changes with diff and incorporated them locally, but didn't actually pull th
 git push origin master -f
 
 
-https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
-http://rogerdudler.github.io/git-guide/
-https://education.github.com/git-cheat-sheet-education.pdf
-https://www.atlassian.com/git/tutorials/comparing-workflows/ (the workflow 
-http://stackoverflow.com/questions/19216411/how-do-i-pull-files-from-remote-without-overwriting-local-files (stash > pull > stash pop)
-
 
 We're all going to have a working branch, and a master branch.
 
-Workflow
-* We can't really work on the scene itself at the same time, as there's no good way to merge binary files.
-* We can add assets, work on scripts, etc though of course. Anything text or resource-related we can get merged.
-checkout (your branch)
-pull origin/master (or fetch then merge)
-*now you can work. once done with work ->
-add -A (or single files)
-commit -m "message"
--- now your personal branch is up to date locally
-push
--- now your remote is up to date as well
--- now, we need to get all of these changes to the master branch, regardless of if one of us has pushed to it in the meantime. so,
-diff master (to see differences)
-git fetch origin master
-git merge master (fix conflicts in the file and add the proper file to resolve the merge conflict)
+
 
 
 
