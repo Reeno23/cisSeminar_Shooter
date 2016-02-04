@@ -50,7 +50,7 @@ push
 -- now, we need to get all of these changes to the master branch, regardless of if one of us has pushed to it in the meantime. so,
 diff master (to see differences)
 git fetch origin master
-git merge master
+git merge master (fix conflicts in the file and add the proper file to resolve the merge conflict)
 
 
 
