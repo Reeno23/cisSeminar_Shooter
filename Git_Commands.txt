@@ -1,3 +1,7 @@
+git branch ( make sure you're always in the proper branch ) *******
+git checkout (switch branch)
+git config --global credential.helper cache (so git stores user and pw in memory for 15min)
+
 init
 remote add origin https://github.com/yourusername/Hello-World.git -- to assign a value to the origin master remote property. 
 
@@ -8,8 +12,6 @@ status
 reset
 clone (if you clone, it sets that respository as origin, so fetch and pull will default use it.)
 diff (origin/master or --cached or HEAD) (show all changes that took place since last commit)
-branch "name" (create branch)
-checkout "name" (switch to branch)
 
 To push changes to github:
 add (-A for all, -u for modified and deleted w/o new, . for new and modified, w/o deleted)
@@ -31,4 +33,6 @@ https://education.github.com/git-cheat-sheet-education.pdf
 http://stackoverflow.com/questions/19216411/how-do-i-pull-files-from-remote-without-overwriting-local-files (stash > pull > stash pop)
 
 We're all going to have a working branch, and a master branch.
+
+change at 10:50PM
 
