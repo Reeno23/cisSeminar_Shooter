@@ -40,6 +40,7 @@ change at 10:50PM
 
 change at 10:56PM
 
+<<<<<<< HEAD
 workflow
 pull origin/master
 *now you can work 
