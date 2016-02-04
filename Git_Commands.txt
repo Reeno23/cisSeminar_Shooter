@@ -8,7 +8,8 @@ status
 reset
 clone (if you clone, it sets that respository as origin, so fetch and pull will default use it.)
 diff (origin/master or --cached or HEAD) (show all changes that took place since last commit)
-
+branch "name" (create branch)
+checkout "name" (switch to branch)
 To push changes to github:
 add (-A for all, -u for modified and deleted w/o new, . for new and modified, w/o deleted)
 commit -m "Changes here"
