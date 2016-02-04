@@ -43,4 +43,7 @@ change at 10:56PM
 workflow:
 pull origin/master
 *now you can work 
+<<<<<<< HEAD
 hi
+=======
+>>>>>>> changing git_commands
