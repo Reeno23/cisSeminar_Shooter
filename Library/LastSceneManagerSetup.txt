@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/ReenoNow/Desktop/TEMP GIT/cisSeminar_Shooter/Assets/Scenes/Scene_One.unity
+- path: Assets/Scenes/Scene_One.unity
   isLoaded: 1
   isActive: 1
