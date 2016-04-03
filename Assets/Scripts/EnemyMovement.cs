@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     public GameObject protagonist;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if ((protagonist.transform.position - transform.position).magnitude > 1)
         {
