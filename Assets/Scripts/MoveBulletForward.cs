@@ -7,6 +7,6 @@ public class MoveBulletForward : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        transform.position += transform.forward * speed * Time.deltaTime;
+        transform.position += transform.up * speed * Time.deltaTime;
 	}
 }

@@ -15,7 +15,7 @@ public class BlockShoot : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+  /*  void Update()
     {
 
         // Mouse Position in the world. It's important to give it some distance from the camera. 
@@ -26,11 +26,23 @@ public class BlockShoot : MonoBehaviour
         //Angle between mouse and this object
         float angle = AngleBetweenPoints(transform.position, mouseWorldPosition);
 
-        //Ta daa
         transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
         if (Input.GetKey(KeyCode.Mouse0))
         {
             Instantiate(bullet, transform.position, transform.rotation);
+        }
+    }*/
+
+    void FixedUpdate()
+    {
+        //Vector3 shootDirection = Vector3.right * Input.GetAxis("Horizontal")
+        //   + Vector3.up * Input.GetAxis("Vertical");
+        if (canShoot && Input.GetKey(KeyCode.Mouse0))
+        {
+        //    transform.rotation = Quaternion.LookRotation(shootDirection, Vector3.up);
+            Instantiate(bullet, transform.position, transform.rotation);
+            canShoot = false;
+            Invoke("ResetShot", shootDelay);
         }
     }
 
