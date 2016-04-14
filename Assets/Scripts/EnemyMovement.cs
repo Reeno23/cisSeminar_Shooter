@@ -7,7 +7,6 @@ public class EnemyMovement : MonoBehaviour
     public float speed = 1;
     public GameObject protagonist;
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if ((protagonist.transform.position - transform.position).magnitude > 1)

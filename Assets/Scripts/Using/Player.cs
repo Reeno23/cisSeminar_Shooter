@@ -1,19 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
 
 public class Player : MonoBehaviour
 {
 
-     public float playerSpeed = 10; //speed player moves
-     public float turnSpeed  = 100; // speed player turns
- 
-     void FixedUpdate () 
+     public float playerSpeed = 10f; //speed player moves
+     public float turnSpeed  = 100f; // speed player turns
+     private bool speedEffected = false;
+
+
+     void Start()
      {
- 
+         GlobalStats.stopwatch = new Stopwatch();
+         GlobalStats.stopwatch.Start();
+     }
+
+     void FixedUpdate() 
+     {
          MoveForwardAndBack(); // Player Movement
          TurnRightAndLeft();//Player Turning
+
+         if (speedEffected)
+         {
+             StartCoroutine(pause());
+         }
      }
- 
+
      void MoveForwardAndBack()
      {
  
@@ -41,10 +54,25 @@ public class Player : MonoBehaviour
          {
              transform.Rotate(Vector3.forward *turnSpeed* Time.deltaTime);
          }
- 
      }
 
+    // Speed up if we enter a fast floor object.
+     void OnTriggerEnter(Collider other)
+     {
+         if (other.gameObject.tag == "Fast Floor")
+         {
+             playerSpeed *= 1.5f;
+             speedEffected = true;
+         }
+     }
 
+    // Return speed back to normal after 5 seconds.
+     IEnumerator pause()
+     {
+         speedEffected = false;
+         yield return new WaitForSeconds(5);
+         playerSpeed /= 1.5f;
+     }
 
 
 
