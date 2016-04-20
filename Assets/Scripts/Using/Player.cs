@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
      {
          if (other.gameObject.tag == "Fast Floor")
          {
-             playerSpeed *= 1.5f;
+             playerSpeed *= 1.1f;
              speedEffected = true;
          }
      }
@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
      {
          speedEffected = false;
          yield return new WaitForSeconds(5);
-         playerSpeed /= 1.5f;
+         playerSpeed /= 1.1f;
      }
 
 

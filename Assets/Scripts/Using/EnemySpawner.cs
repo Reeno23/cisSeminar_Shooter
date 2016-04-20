@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemySpawner : MonoBehaviour 
 {
 
-    public Enemy enemy;                     // The enemy prefab to be spawned.
+    public GameObject enemy;                // The enemy prefab to be spawned.
     public float spawnTime = 3f;            // How long between each spawn.
     public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
 
@@ -18,18 +18,16 @@ public class EnemySpawner : MonoBehaviour
 
     void Spawn()
     {
-        /* If the player has no health left...
-        if (playerHealth.currentHealth <= 0f)
-        {
-            // ... exit the function.
-            return;
-        }
-         * */
-        
+
         // Find a random index between zero and one less than the number of spawn points.
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
-        
-        // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
-        Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+
+        // Messing with prefab's material sucks. This finally worked. Have to separate everything that you're working with from the prefab to touch it.
+        Material m = new Material(enemy.GetComponent<MeshRenderer>().sharedMaterial);
+        m.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), 1.0f);
+        GameObject newEnemy = enemy;
+
+        Instantiate(newEnemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+        newEnemy.GetComponent<MeshRenderer>().material = m;
     }
 }

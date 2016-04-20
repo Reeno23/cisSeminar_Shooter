@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
             // I'm guessing this pause approach will work. Title screen may not show when time isn't advancing.
             */
              
-            //Time.timeScale = 0; // This is the pause time way.
+            Time.timeScale = 0; // This is the pause time way.
 
 
             /* Use these stats for game over screen. They're already being calculated properly.
@@ -44,7 +44,10 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             Destroy(other.gameObject);
-            Destroy(gameObject);
+
+            Destroy(gameObject.GetComponent<Enemy>());
+            Destroy(gameObject.GetComponent<Rigidbody>());
+            Destroy(gameObject.GetComponent<Collider>());
 
             GlobalStats.enemiesKilled += 1;
         }
