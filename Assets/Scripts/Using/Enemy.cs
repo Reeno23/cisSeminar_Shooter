@@ -24,6 +24,10 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
+          if (Input.GetKeyDown(KeyCode.R))
+          {
+           newgame();
+          }
             currentSpeed = chaseSpeed * Time.deltaTime;
             protagonist = GameObject.FindGameObjectWithTag("Player");
             transform.position = Vector3.MoveTowards(transform.position, protagonist.transform.position, currentSpeed);
