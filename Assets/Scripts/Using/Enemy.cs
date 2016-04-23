@@ -26,7 +26,8 @@ public class Enemy : MonoBehaviour
     {
           if (Input.GetKeyDown(KeyCode.R))
           {
-           newgame();
+            Time.timeScale = 0;
+            newgame();
           }
             currentSpeed = chaseSpeed * Time.deltaTime;
             protagonist = GameObject.FindGameObjectWithTag("Player");
